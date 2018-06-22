@@ -1,0 +1,52 @@
+@import './_variable';
+
+
+.iconfont {
+  font-size: $sc-smallfont;
+}
+
+body {
+  background: $sc-bg;
+}
+
+.sc-bg {
+  background: $sc-bg;
+  color: $color-blue;
+}
+
+.sc-mt-bg {
+  background: $color-blue;
+  color: #fff;
+}
+
+.sc-bg-white {
+  background: #fff;
+}
+
+input,
+textarea {
+  user-select: text;
+}
+
+.mint-header {
+  height: $sc-header;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+}
+
+.mint-tab-item-label {
+  line-height: .88rem;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+}
+.mint-tabbar {
+  .mint-tab-item{
+    padding: 0;
+    &.is-selected {
+      background-color: #3385ff;
+      color: #fff;
+    }
+  }
+} 
